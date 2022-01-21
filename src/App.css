@@ -1,0 +1,87 @@
+.App {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.password{
+  background-color: #ffffff;
+  width: 30vw;
+  padding: 0.8em 1em;
+  border-radius: 10px;
+  box-shadow: rgb(167, 167, 167) 1px 1px 10px;
+}
+
+.password-inputs{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.password-input {
+  width: 90%;
+  margin: 1em 0.5em;
+  padding: 16px;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+}
+
+.password-buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.password-button {
+  width: 100%;
+  margin: 16px;
+  padding: 8px;
+  color: #ffffff;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.password-saveButton {
+  background: #47B53A;
+  border: 5px solid #47B53A;
+}
+
+.password-generateButton {
+  background: #007EEE;
+  border: 5px solid #007EEE;
+}
+
+th {
+  padding: 0.5em;
+}
+
+td {
+  padding: 16px;
+  
+}
+
+table{
+  width: 100%;
+  text-align: center;
+}
+
+.password-table {
+  background-color: #ffffff;
+  width: 30vw;
+  padding: 1.5em 1em;
+  border-radius: 10px;
+  box-shadow: rgb(167, 167, 167) 1px 1px 10px;
+  text-align: left;
+  min-height: 31vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.password-text {
+  font-family: monospace;
+  color: #ff0000;
+}
